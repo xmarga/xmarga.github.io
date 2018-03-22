@@ -8,7 +8,8 @@ body {
     font-family: 'Open Sans', Tahoma, Arial, Verdana;
     font-size: 13px;
     color: #999;
-    height: 100%;
+    width: 100%;
+	height: auto; 
 }
 
 h1 {
@@ -60,16 +61,16 @@ div.contentpf {
         line-height: 55px;
     }
 
-#mooieverhaaltjesContainer {
+#bodyContainer {
     padding-top: 30px;
-    width: 1100px;
+    width: 50%;
     margin: 0 auto;
     overflow: auto;
     padding-bottom: 80px;
     clear: both;
 }
 
-    #mooieverhaaltjesContainer #marga-menu {
+	/*	#mooieverhaaltjesContainer #marga-menu {
         float: left;
         width: 234px;
         border: 6px solid #a24455;
@@ -260,7 +261,7 @@ div.contentpf {
             font-family: 'Open Sans', Arial, Calibri;
             padding: 5px 15px 5px 35px;
             margin-bottom: 20px;
-            /* background-color: #335CAD; */
+            /* background-color: #335CAD;
             color: #fff;
             font-size: 16px;
             height: 20px;
@@ -272,3 +273,4 @@ div.contentpf {
             #mooieverhaaltjesContainer .hoofdverhaaltje .button:hover {
                 cursor: pointer;
             }
+*/
