@@ -1,5 +1,6 @@
 body {
 		margin: 0;
+		background: #f4f4f4;
 }
 
 h1, h2 {
@@ -45,7 +46,6 @@ img {
 	padding: 1%;
 	box-sizing: border-box;
 	min-height: 942px;
-	max-height: inherit;
 }
 
 .left-col, .right-col {
@@ -55,12 +55,9 @@ img {
 	overflow: hidden;
 }
 
-.right-col {
-	text-align: center;
-}
-
 .center-col {
 /*          background-color: pink; */
+	background: #fff;
 	width: 60%;
 	float: left;
 	overflow: hidden;
