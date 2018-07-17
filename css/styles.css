@@ -45,6 +45,7 @@ img {
 	padding: 1%;
 	box-sizing: border-box;
 	min-height: 942px;
+	max-height: inherit;
 }
 
 .left-col, .right-col {
